@@ -6,21 +6,5 @@
     "aws-sdk": "^2.0.0",
     "uuid": "9.0.0",
     "sam-lambda-demo-models": "^0.1.0"
-  },
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sr-shifu/app-composer-demo.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sr-shifu/app-composer-demo/issues"
-  },
-  "homepage": "https://github.com/sr-shifu/app-composer-demo#readme",
-  "description": ""
+  }
 }
