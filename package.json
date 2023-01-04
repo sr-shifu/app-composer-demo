@@ -1,17 +1,8 @@
 {
-  "name": "sam-lambda-demo-models",
-  "version": "0.1.0",
-  "dependencies": {
-    "@aws/dynamodb-data-mapper": "^0.7.3"
-  },
-  "exports": {
-    "./*": {
-      "require": "./dist/*.js",
-      "default": "./dist/*.js"
-    }
-  },
+  "name": "app-composer-demo",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +16,9 @@
     "url": "https://github.com/sr-shifu/app-composer-demo/issues"
   },
   "homepage": "https://github.com/sr-shifu/app-composer-demo#readme",
-  "description": ""
+  "workspaces": [
+    "src/list",
+    "src/models",
+    "src/createOrUpdate"
+  ]
 }
