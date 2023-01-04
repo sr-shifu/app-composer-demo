@@ -8,7 +8,7 @@ Resources:
         - ResourceName: Api
       StageName: Prod
       DefinitionBody:
-        openapi: "3.0"
+        openapi: '3.0'
         info: {}
         paths:
           /todos:
