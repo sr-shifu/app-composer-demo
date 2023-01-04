@@ -1,0 +1,13 @@
+{
+  "name": "sam-lambda-demo-models",
+  "version": "0.1.0",
+  "dependencies": {
+    "@aws/dynamodb-data-mapper": "^0.7.3"
+  },
+  "exports": {
+    "./*": {
+      "require": "./dist/*.js",
+      "default": "./dist/*.js"
+    }
+  }
+}

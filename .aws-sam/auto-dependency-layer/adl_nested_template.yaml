@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS SAM CLI Nested Stack for Auto Dependency Layer Creation
+Metadata:
+  SamCliInfo: 1.67.0
+  key: AWS SAM CLI sync command
+Outputs:
+  CreateOrUpdateToDob03f17c3DepLayer:
+    Value:
+      Ref: CreateOrUpdateToDob03f17c3DepLayer
+  GetToDos35a38142DepLayer:
+    Value:
+      Ref: GetToDos35a38142DepLayer
+Resources:
+  CreateOrUpdateToDob03f17c3DepLayer:
+    Metadata:
+      CreatedBy: AWS SAM CLI sync command
+    Properties:
+      CompatibleRuntimes:
+      - nodejs18.x
+      ContentUri: /Users/ildar/Documents/AppComposer/.aws-sam/auto-dependency-layer/CreateOrUpdateToDob03f17c3DepLayer
+      Description: Auto created layer for dependencies of function CreateOrUpdateToDo
+      LayerName: sam-demo-stack608765eb-CreateOrUpdateToDob03f17c3-DepLayer
+      RetentionPolicy: Delete
+    Type: AWS::Serverless::LayerVersion
+  GetToDos35a38142DepLayer:
+    Metadata:
+      CreatedBy: AWS SAM CLI sync command
+    Properties:
+      CompatibleRuntimes:
+      - nodejs18.x
+      ContentUri: /Users/ildar/Documents/AppComposer/.aws-sam/auto-dependency-layer/GetToDos35a38142DepLayer
+      Description: Auto created layer for dependencies of function GetToDos
+      LayerName: sam-demo-stack608765eb-GetToDos35a38142-DepLayer
+      RetentionPolicy: Delete
+    Type: AWS::Serverless::LayerVersion
+Transform: AWS::Serverless-2016-10-31
