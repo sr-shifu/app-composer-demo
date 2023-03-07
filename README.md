@@ -1,3 +1,5 @@
+Find more details in my [post](https://thesametech.com/infra-as-diagram/).
+
 ### Development Environment Prerequisites
 - Create your AWS account to access AWS Console
 - Install AWS SAM: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html#install-sam-cli-instructions
@@ -35,4 +37,4 @@
 
 *curl -X PUT -d '{"title": "test ToDo (completed)", "isCompleted": true}' http://127.0.0.1:3000/todos/UUID*  
 
-Note: replace `UUID` with real item id.
+Note: replace `UUID` with real item id. 
